@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA51EFA72407923D00C92D93 /* vedio.mov in Resources */ = {isa = PBXBuildFile; fileRef = DA51EFA62407923D00C92D93 /* vedio.mov */; };
 		DAAA50852404EA9500E1C691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA50842404EA9500E1C691 /* AppDelegate.swift */; };
 		DAAA50872404EA9500E1C691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA50862404EA9500E1C691 /* SceneDelegate.swift */; };
 		DAAA50892404EA9500E1C691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA50882404EA9500E1C691 /* ViewController.swift */; };
 		DAAA508C2404EA9500E1C691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAA508A2404EA9500E1C691 /* Main.storyboard */; };
 		DAAA508E2404EA9700E1C691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAA508D2404EA9700E1C691 /* Assets.xcassets */; };
 		DAAA50912404EA9700E1C691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAA508F2404EA9700E1C691 /* LaunchScreen.storyboard */; };
+		DAAA509A2404EB1900E1C691 /* HelperUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA50992404EB1900E1C691 /* HelperUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA51EFA62407923D00C92D93 /* vedio.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vedio.mov; sourceTree = "<group>"; };
 		DAAA50812404EA9500E1C691 /* CAAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAA50842404EA9500E1C691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAA50862404EA9500E1C691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		DAAA508D2404EA9700E1C691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAAA50902404EA9700E1C691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAAA50922404EA9700E1C691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAA50992404EB1900E1C691 /* HelperUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				DAAA50842404EA9500E1C691 /* AppDelegate.swift */,
 				DAAA50862404EA9500E1C691 /* SceneDelegate.swift */,
 				DAAA50882404EA9500E1C691 /* ViewController.swift */,
+				DA51EFA62407923D00C92D93 /* vedio.mov */,
+				DAAA50982404EB0600E1C691 /* HelperUI */,
 				DAAA508A2404EA9500E1C691 /* Main.storyboard */,
 				DAAA508D2404EA9700E1C691 /* Assets.xcassets */,
 				DAAA508F2404EA9700E1C691 /* LaunchScreen.storyboard */,
 				DAAA50922404EA9700E1C691 /* Info.plist */,
 			);
 			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		DAAA50982404EB0600E1C691 /* HelperUI */ = {
+			isa = PBXGroup;
+			children = (
+				DAAA50992404EB1900E1C691 /* HelperUI.swift */,
+			);
+			path = HelperUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAAA50912404EA9700E1C691 /* LaunchScreen.storyboard in Resources */,
+				DA51EFA72407923D00C92D93 /* vedio.mov in Resources */,
 				DAAA508E2404EA9700E1C691 /* Assets.xcassets in Resources */,
 				DAAA508C2404EA9500E1C691 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +156,7 @@
 				DAAA50892404EA9500E1C691 /* ViewController.swift in Sources */,
 				DAAA50852404EA9500E1C691 /* AppDelegate.swift in Sources */,
 				DAAA50872404EA9500E1C691 /* SceneDelegate.swift in Sources */,
+				DAAA509A2404EB1900E1C691 /* HelperUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

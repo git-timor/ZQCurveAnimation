@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,56 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CAAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g63-ZX-fpP">
+                                <rect key="frame" x="334" y="742" width="50" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music_cover" translatesAutoresizingMaskIntoConstraints="NO" id="gXI-eH-dv9">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqc-DU-DY4">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="4iR-0a-C9g"/>
+                                            <constraint firstAttribute="width" constant="50" id="x8i-V2-Xrf"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="gXI-eH-dv9" firstAttribute="centerY" secondItem="g63-ZX-fpP" secondAttribute="centerY" id="DSb-Gk-NGW"/>
+                                    <constraint firstItem="wqc-DU-DY4" firstAttribute="centerY" secondItem="g63-ZX-fpP" secondAttribute="centerY" id="P7r-Oy-hyB"/>
+                                    <constraint firstItem="gXI-eH-dv9" firstAttribute="width" secondItem="wqc-DU-DY4" secondAttribute="width" multiplier="4.8" constant="-190" id="Qoy-yZ-SUa"/>
+                                    <constraint firstItem="gXI-eH-dv9" firstAttribute="centerX" secondItem="g63-ZX-fpP" secondAttribute="centerX" id="TXN-A7-sIb"/>
+                                    <constraint firstAttribute="width" constant="50" id="a80-fK-RZE"/>
+                                    <constraint firstItem="wqc-DU-DY4" firstAttribute="centerX" secondItem="g63-ZX-fpP" secondAttribute="centerX" id="hkU-bi-zAq"/>
+                                    <constraint firstItem="gXI-eH-dv9" firstAttribute="height" secondItem="wqc-DU-DY4" secondAttribute="height" multiplier="2.56" constant="-78" id="lqd-p4-yWh"/>
+                                    <constraint firstAttribute="height" constant="50" id="rrw-DI-P3J"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g63-ZX-fpP" secondAttribute="trailing" constant="30" id="XDo-xK-ToX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g63-ZX-fpP" secondAttribute="bottom" constant="70" id="dIQ-n1-rjQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="discView" destination="wqc-DU-DY4" id="e9D-Ih-2hP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="music_cover" width="49" height="49"/>
+    </resources>
 </document>
