@@ -2,7 +2,8 @@
 ZQCurveAnimation 一个适用于Swift、OC的扩展，类似于抖音音乐播放器，直播间小心心类似的贝塞尔曲线动画效果
 
 ![image](https://github.com/git-timor/ZQCurveAnimation/blob/master/CAAnimation/%E9%9F%B3%E7%AC%A6%E5%8A%A8%E7%94%BB.gif)
-具体一句话调用如下,：
+
+Usage：
 ```
 discView.curveAnimation(imageName: "icon_home_musicnote1", delay: 0)
 ```
