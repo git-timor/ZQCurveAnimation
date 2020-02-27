@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA51EFA72407923D00C92D93 /* vedio.mov in Resources */ = {isa = PBXBuildFile; fileRef = DA51EFA62407923D00C92D93 /* vedio.mov */; };
+		DA51EFA92407945700C92D93 /* 音符动画.gif in Resources */ = {isa = PBXBuildFile; fileRef = DA51EFA82407945700C92D93 /* 音符动画.gif */; };
 		DAAA50852404EA9500E1C691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA50842404EA9500E1C691 /* AppDelegate.swift */; };
 		DAAA50872404EA9500E1C691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA50862404EA9500E1C691 /* SceneDelegate.swift */; };
 		DAAA50892404EA9500E1C691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA50882404EA9500E1C691 /* ViewController.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA51EFA62407923D00C92D93 /* vedio.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vedio.mov; sourceTree = "<group>"; };
+		DA51EFA82407945700C92D93 /* 音符动画.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "音符动画.gif"; sourceTree = "<group>"; };
 		DAAA50812404EA9500E1C691 /* CAAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAA50842404EA9500E1C691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAA50862404EA9500E1C691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 				DAAA50842404EA9500E1C691 /* AppDelegate.swift */,
 				DAAA50862404EA9500E1C691 /* SceneDelegate.swift */,
 				DAAA50882404EA9500E1C691 /* ViewController.swift */,
-				DA51EFA62407923D00C92D93 /* vedio.mov */,
+				DA51EFA82407945700C92D93 /* 音符动画.gif */,
 				DAAA50982404EB0600E1C691 /* HelperUI */,
 				DAAA508A2404EA9500E1C691 /* Main.storyboard */,
 				DAAA508D2404EA9700E1C691 /* Assets.xcassets */,
@@ -139,8 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA51EFA92407945700C92D93 /* 音符动画.gif in Resources */,
 				DAAA50912404EA9700E1C691 /* LaunchScreen.storyboard in Resources */,
-				DA51EFA72407923D00C92D93 /* vedio.mov in Resources */,
 				DAAA508E2404EA9700E1C691 /* Assets.xcassets in Resources */,
 				DAAA508C2404EA9500E1C691 /* Main.storyboard in Resources */,
 			);
